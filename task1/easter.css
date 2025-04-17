@@ -1,5 +1,5 @@
 body {
-    background-color: #f8e8ff;
+    background-color: yellow;
     font-family: Arial, sans-serif;
     text-align: center;
 }
@@ -7,7 +7,7 @@ body {
     display: inline-block;
     width: 100px;
     height: 130px;
-    background: darkred;
+    background: darkgreen;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     margin: 10px;
     cursor: pointer;
