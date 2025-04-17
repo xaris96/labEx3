@@ -12,6 +12,8 @@
     <div class="egg" onclick="alert('You found a chocolate egg! 🍫')"></div>
     <div class="egg" onclick="document.getElementById('secretBunny').style.display='block'"></div>
     <div class="egg" onclick="this.style.background='rainbow'"></div>
+    <div class="egg" style="background: blue;" onclick="alert('Blue egg!')"></div>
+    <div class="egg" style="background: red;" onclick="alert('Green egg!')"></div>
 
     <p class="hidden-basket">🧺 Secret Easter Basket Found! 🧺</p>
     
@@ -23,12 +25,9 @@
         const cheatCode = "KANGAROO";
     
         document.addEventListener('keydown', (e) => {
-            keys.push(e.key.toUpperCase());
-            if (keys.length > cheatCode.length) {
-                keys.shift();
-            }
-            if (keys.join('') === cheatCode) {
-                document.body.style.background = 'linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet)';
+            keys.push(e.key);
+            if (keys.join(',').includes('ArrowUp,ArrowUp,ArrowDown,ArrowDown')) {
+                document.body.style.background = 'linear-gradient(to right, blue, green)';
             }
         });
     </script>
