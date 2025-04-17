@@ -7,7 +7,7 @@ body {
     display: inline-block;
     width: 100px;
     height: 130px;
-    background: linear-gradient(45deg, #ff9ecd, #ffcce6);
+    background: linear-gradient(45deg, darkred);
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     margin: 10px;
     cursor: pointer;
