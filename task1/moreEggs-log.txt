@@ -1,0 +1,4 @@
+31a7906 Change gradient to blue-orange
+306c694 Add more eggs with different colors
+d4a2a4d Change egg color to dark red
+84bf857 Initial commit

@@ -1,0 +1,7 @@
+702b25c Three changes
+6b39117 Change keybind for third Easter egg to Mega Jump cheat code
+b699cb3 Update rainbow gradient to remove line splits
+e0b4913 Update theme to left-to-right gradient
+82b90d2 Change egg color to solid dark red (Orthodox tradition)
+d4a2a4d Change egg color to dark red
+84bf857 Initial commit
